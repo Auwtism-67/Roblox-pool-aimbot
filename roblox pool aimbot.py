@@ -33,11 +33,10 @@ CUE_MIN_BRIGHT = 210  # IF ITS BRIGHT ITS WHITE
 CUE_MAX_SAT    = 18   # erm akstully white doesnt have much saturation 
 
 # line detection stuff
-# i kept tweaking these until it looked right
 WHITE_THRESH    = 210
 HOUGH_MINLEN    = 25  # ignore super short lines
 HOUGH_MAXGAP    = 6   # how much a line can have gaps in it
-HOUGH_THRESHOLD = 8   # lowered this because my mouse movements are small
+HOUGH_THRESHOLD = 8   # lower by 2s or else it glitches :c no im not fixing it
 
 # how close a second ball has to be to show the red line
 SECONDARY_SNAP_DIST = 75
